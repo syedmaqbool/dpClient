@@ -5,3 +5,15 @@
 .form-control {
   @apply w-full appearance-none rounded border py-2 px-3 text-sm text-gray-700 shadow focus:outline-blue-400;
 }
+
+.MuiInputBase-input.MuiOutlinedInput-input {
+  @apply h-full w-full p-0;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+  @apply w-full appearance-none rounded border  py-2 px-3 text-sm text-gray-700 shadow focus:outline-blue-400;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  @apply border-0 !important;
+}

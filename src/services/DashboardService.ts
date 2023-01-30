@@ -55,13 +55,12 @@ export const areasApi = createApi({
       query: (areaId: number) => API_PATHS.GET_AREA_SLOTS(areaId),
     }),
     getAllBookings: builder.query<GetAllBookingsResponse, number>({
-      query: (userId:number) => API_PATHS.GET_ALL_BOOKINGS(userId),
+      query: (userId) => API_PATHS.GET_ALL_BOOKINGS(userId),
     }),
   }),
 });
 
 export const {
-  useGetAllBookingsQuery,
   useGetAreasQuery,
   useLazyGetAreaSlotsQuery,
   useLazyGetAllBookingsQuery,
