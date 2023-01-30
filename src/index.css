@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+  @apply w-full appearance-none rounded border py-2 px-3 text-sm text-gray-700 shadow focus:outline-blue-400;
+}
